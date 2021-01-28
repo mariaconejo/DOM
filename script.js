@@ -61,3 +61,11 @@
   Investiga un metodo de algun elemento y trae un ejemplo de
   para que lo usarias
 */
+const boton = document.querySelector("button");
+boton.addEventListener("click",myFunction)
+
+
+function myFunction() {
+const list = document.getElementById("myList");
+list.removeChild(list.childNodes[0]);
+}
